@@ -2,7 +2,7 @@ const express = require('express')
 const bp = require('body-parser')
 const cors= require('cors')
 const mongoose = require('mongoose')
-const empc= require('./models/model')
+const empc= require('./model')
 const URL = "mongodb+srv://admin:admin123@cluster0.j5rn3zv.mongodb.net/gfgdb2?retryWrites=true&w=majority&appName=Cluster0";
 
 var app = express()
